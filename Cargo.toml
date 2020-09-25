@@ -11,4 +11,4 @@ categories = ["api-bindings"]
 [dependencies]
 blkid-sys = "^0.1"
 errno = "^0.2"
-libc = "^0.2"
+libc = "0.2.77"
