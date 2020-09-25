@@ -9,6 +9,6 @@ authors = ["Chris Holcombe <xfactor973@gmail.com>"]
 categories = ["api-bindings"]
 
 [dependencies]
-blkid-sys = "^0.1"
+blkid-sys = { git = "https://github.com/elastio/blkid-sys", branch = "update-bindgen-version" }
 errno = "^0.2"
 libc = "0.2.77"
